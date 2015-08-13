@@ -11,7 +11,6 @@
   "dependencies": {
     "bootstrap": "^3.3.5",
     "commander": "^2.8.1",
-    "json_to_excel": "git+ssh://git@bitbucket.org/ejjjv/json_to_excel.git",
     "mithril": "^0.2.0",
     "watch": "^0.16.0"
   }
