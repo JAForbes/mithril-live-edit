@@ -1,0 +1,18 @@
+{
+  "name": "mithril-live-edit",
+  "version": "0.0.0",
+  "description": "Demonstrates hacky specific live editing for electron+mithril ",
+  "main": "src/electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "james.a.forbes@gmail.com <=> (http://james-forbes.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "commander": "^2.8.1",
+    "json_to_excel": "git+ssh://git@bitbucket.org/ejjjv/json_to_excel.git",
+    "mithril": "^0.2.0",
+    "watch": "^0.16.0"
+  }
+}
