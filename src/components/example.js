@@ -14,7 +14,7 @@ module.exports = {
 					m("input[type=text].form-control",{
 						inputValue: ctrl.inputValue(),
 						oninput: m.withAttr("value", ctrl.inputValue),
-						placeholder: process.env.USERNAME + "'s Input"
+						placeholder: "Edit src/components/example live!"
 					}, "")
 
 			)
