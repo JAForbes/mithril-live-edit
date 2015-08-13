@@ -10,7 +10,7 @@ module.exports = {
 			m("h1", "Welcome"),
 			m("div.input-group",
 
-					m("span.input-group-addon#addon","Schedule Name: "),
+					m("span.input-group-addon#addon","Label: "),
 					m("input[type=text].form-control",{
 						inputValue: ctrl.inputValue(),
 						oninput: m.withAttr("value", ctrl.inputValue),
