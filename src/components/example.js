@@ -1,12 +1,15 @@
 var m = require("mithril")
 
+var style = require("../styles/example.js")
+
 module.exports = {
 	controller: function(){
 		this.inputValue = m.prop("")
 	},
 
 	view: function(ctrl){
-		return [
+		return m("div", {style: style.css() },
+
 			m("h1", "Welcome"),
 			m("div.input-group",
 
@@ -18,8 +21,6 @@ module.exports = {
 					}, "")
 
 			)
-
-
-		]
+		)
 	}
 }
